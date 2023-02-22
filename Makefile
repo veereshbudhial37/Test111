@@ -8,5 +8,3 @@ factorial.o:factorial.c
         gcc -c factorial.c
 palindrome.o:palindrome.c
         gcc -c palindrome.c
-clean:
-        rm -rf *.o
