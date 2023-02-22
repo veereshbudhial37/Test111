@@ -9,4 +9,4 @@ factorial.o:factorial.c
 palindrome.o:palindrome.c
         gcc -c palindrome.c
 clean:
-        r -rf *.o
+        rm -rf *.o
